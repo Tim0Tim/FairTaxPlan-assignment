@@ -4,12 +4,12 @@ namespace FairTaxPlan
 {
     class FairTaxTest
     {
-        static void Main(string[] args)
+        static void Main()
         {
             decimal housing;//to store user input as a decimal
             decimal food;//to store user input as a decimal
             decimal clothing;//to store user input as a decimal
-            int transportation;//to store user input as a decimal
+            decimal transportation;//to store user input as a decimal
             decimal education;//to store user input as a decimal
             decimal healthCare;//to store user input as a decimal
             decimal vacations;//to store user input as a decimal
