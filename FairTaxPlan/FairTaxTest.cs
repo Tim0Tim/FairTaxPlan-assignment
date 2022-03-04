@@ -34,7 +34,7 @@ namespace FairTaxPlan
                                                      //getting food totals
             Console.WriteLine("Please enter your monthly food expense");//prompt for user input
             input = Console.ReadLine();//temporarily storing user input as a string.
-            while (!decimal.TryParse(input, out food) || food < 0);
+            while (!decimal.TryParse(input, out food) || food < 0)
             {
                 Console.WriteLine("INVALID ENTRY: Please enter your monthly food expense");//notifying user of error and prompt for new entry.
                 input = Console.ReadLine();
@@ -45,7 +45,7 @@ namespace FairTaxPlan
                                                   //getting clothing totals
             Console.WriteLine("Please enter your monthly clothing expense");//prompt for user input
             input = Console.ReadLine();//temporarily storing user input as a string.
-            while (!decimal.TryParse(input, out clothing) || clothing < 0);//validating the users input.
+            while (!decimal.TryParse(input, out clothing) || clothing < 0)//validating the users input.
             {
                 Console.WriteLine("INVALID ENTRY: Please enter your monthly clothingn expense");//notifying user of error and prompt for new entry.
                 input = Console.ReadLine();
@@ -56,7 +56,7 @@ namespace FairTaxPlan
                                                       //getting transportation totals
             Console.WriteLine("Please enter your monthly transportation expense");//prompt for user input
             input = Console.ReadLine();//temporarily storing user input as a string.
-            while (!decimal.TryParse(input, out transportation) || transportation < 0);//validating the users input.
+            while (!decimal.TryParse(input, out transportation) || transportation < 0)//validating the users input.
             {
                 Console.WriteLine("INVALID ENTRY: Please enter your monthly transportation expense");//notifying user of error and prompt for new entry.
                 input = Console.ReadLine();
@@ -67,7 +67,7 @@ namespace FairTaxPlan
                                                            //getting education totals
             Console.WriteLine("Please enter your monthly education expense");//prompt for user input
             input = Console.ReadLine();//temporarily storing user input as a string.
-            while (!decimal.TryParse(input, out education) || education < 0);//validating the users input.
+            while (!decimal.TryParse(input, out education) || education < 0)//validating the users input.
             {
                 Console.WriteLine("INVALID ENTRY: Please enter your monthly education expense");//notifying user of error and prompt for new entry.
                 input = Console.ReadLine();
@@ -78,7 +78,7 @@ namespace FairTaxPlan
                                                        //getting healthcare totals
             Console.WriteLine("Please enter your monthly health care expense");//prompt for user input
             input = Console.ReadLine();//temporarily storing user input as a string.
-            while (!decimal.TryParse(input, out healthCare) || healthCare < 0);//validating the users input.
+            while (!decimal.TryParse(input, out healthCare) || healthCare < 0)//validating the users input.
             {
                 Console.WriteLine("INVALID ENTRY: Please enter your monthly health care expense");//notifying user of error and prompt for new entry.
                 input = Console.ReadLine();
@@ -89,7 +89,7 @@ namespace FairTaxPlan
                                                         //getting vacation totals
             Console.WriteLine("Please enter your monthly vacations expense");//prompt for user input
             input = Console.ReadLine();//temporarily storing user input as a string.
-            while (!decimal.TryParse(input, out vacations) || vacations < 0);//validating the users input.
+            while (!decimal.TryParse(input, out vacations) || vacations < 0)//validating the users input.
             {
                 Console.WriteLine("INVALID ENTRY: Please enter your monthly vacations expense");//notifying user of error and prompt for new entry.
                 input = Console.ReadLine();

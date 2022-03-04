@@ -74,7 +74,7 @@ namespace FairTaxPlan
             }
         }
         //healthcare tax property
-        decimal HealthCareTax
+        public decimal HealthCareTax
         {
             get
             {
